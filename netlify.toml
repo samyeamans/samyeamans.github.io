@@ -1,6 +1,7 @@
 [build.environment]
   NODE_ENV = "production"
   NPM_CONFIG_PRODUCTION = "false"
+
 [functions]
   directory = "my_functions"
 
@@ -13,10 +14,6 @@
 
   # The command that Netlify uses to build your site.
   command = "npm run build"
-
-[build.environment]
-  # Set environment variables for your build process.
-  NODE_ENV = "production"
 
 [[plugins]]
   # Optionally add plugins here for advanced features.
